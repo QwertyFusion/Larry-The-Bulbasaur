@@ -27,7 +27,7 @@ bot.on('ready', () => {
 })
 
 bot.on('guildMemberAdd', member => {
-    bot.commands.get('Larry').execute(member, RichEmbed, colour);
+    bot.commands.get('Welcome').execute(member, RichEmbed, colour);
 });
 
 bot.on('message', message => {
