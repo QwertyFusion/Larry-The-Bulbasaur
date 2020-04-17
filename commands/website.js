@@ -3,6 +3,6 @@ module.exports = {
     description: "Mentions Official Website!",
     execute(message, args)
     {
-        message.channel.send('We are making the site currently!');
+        message.channel.send('The official website of The Tree Cult is https://treecultofcpo.wordpress.com');
     }
 }
