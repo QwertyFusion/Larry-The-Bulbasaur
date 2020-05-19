@@ -29,7 +29,7 @@ module.exports = {
         .addField('9) **Larry!poll <anything>**', 'Start a poll on that topic in the current channel!')
         .addField('10) **Larry!clear <amount>**', 'Use this to clear the entered amount of messages')
         .setColor(colour)
-        .setFooter('Bot Help page - 1/1  ||  If you want to add any game or need any help, contact the Admins.')
+        .setFooter('Bot Help page - 1/1')
         message.channel.send(embed2);
         }
 
@@ -43,7 +43,7 @@ module.exports = {
         .addField(`4) **Krunker.io**', 'Online Browser Game`)
         .addField('5) **San Andreas Multiplayer**','You can even play with a cracked San Adndreas Game!')
         .setColor(colour)
-        .setFooter('Game Help page - 1/1')
+        .setFooter('Game Help page - 1/1  ||  If you want to add any game or need any help, contact the Admins.')
         message.channel.send(embed);
         }
     }
